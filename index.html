@@ -5,10 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OOP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        ol {
+            counter-reset: item;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        ol li {
+            counter-increment: item;
+            margin-bottom: 10px;
+        }
+        
+        ol li:before {
+            content: counter(item) ". ";
+            font-weight: bold;
+            color: #337ab7;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
 </head>
 
 <body>
-
 
     <main>
         <section>
@@ -27,17 +83,20 @@
             <ol>
                 <li>Herencia: Las clases pueden heredar propiedades y comportamientos de otras clases, lo que permite
                     crear jerarquías de clases</li>
+                    <p></p>
                 <li>Polimorfismo: Los objetos pueden tomar diferentes formas dependiendo del contexto en el que se
                     utilicen.</li>
+                    <p></p>
                 <li>Absatracción: Los objetos se pueden abstraer para enfocarse en sus características esenciales y
                     ignorar detalles irrelevantes.</li>
+                    <p></p>
                 <li>Encapsulamiento: Los objetos ocultan sus detalles internos y solo exponen una interfaz pública para interactuar con ellos.</li>
             </ol>
         </section>
     </main>
 
     <footer>
-        <p>&copy; Gerado - Derechos Reservados- 3B</p>
+        <p>&copy; Derechos reservados - 3B</p>
     </footer>
 </body>
 
